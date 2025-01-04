@@ -1,0 +1,7 @@
+C:\Users\Frozin\Desktop\Study\Univer\Курсач 5 сем\GIT\SneakerShop\BackendSneakerShop\obj\Debug\net7.0\BackendSneakerShop.csproj.AssemblyReference.cache
+C:\Users\Frozin\Desktop\Study\Univer\Курсач 5 сем\GIT\SneakerShop\BackendSneakerShop\obj\Debug\net7.0\BackendSneakerShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Frozin\Desktop\Study\Univer\Курсач 5 сем\GIT\SneakerShop\BackendSneakerShop\obj\Debug\net7.0\BackendSneakerShop.AssemblyInfoInputs.cache
+C:\Users\Frozin\Desktop\Study\Univer\Курсач 5 сем\GIT\SneakerShop\BackendSneakerShop\obj\Debug\net7.0\BackendSneakerShop.AssemblyInfo.cs
+C:\Users\Frozin\Desktop\Study\Univer\Курсач 5 сем\GIT\SneakerShop\BackendSneakerShop\obj\Debug\net7.0\BackendSneakerShop.csproj.CoreCompileInputs.cache
+C:\Users\Frozin\Desktop\Study\Univer\Курсач 5 сем\GIT\SneakerShop\BackendSneakerShop\obj\Debug\net7.0\BackendSneakerShop.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Frozin\Desktop\Study\Univer\Курсач 5 сем\GIT\SneakerShop\BackendSneakerShop\obj\Debug\net7.0\BackendSneakerShop.MvcApplicationPartsAssemblyInfo.cache

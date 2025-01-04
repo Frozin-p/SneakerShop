@@ -11,14 +11,14 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("cf009906-c7af-4eb5-b0ed-4bd7fc8b18c8")]
+/*[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("cf009906-c7af-4eb5-b0ed-4bd7fc8b18c8")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CartService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CartService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CartService")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]*/
 
 // Создано классом WriteCodeFragment MSBuild.
 

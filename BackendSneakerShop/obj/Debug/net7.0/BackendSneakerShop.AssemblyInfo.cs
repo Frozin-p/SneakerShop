@@ -11,14 +11,14 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("f7f86db1-9ce5-42fd-b2b2-1c364171e751")]
+/*[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("f7f86db1-9ce5-42fd-b2b2-1c364171e751")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackendSneakerShop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackendSneakerShop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackendSneakerShop")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]*/
 
 // Создано классом WriteCodeFragment MSBuild.
 
