@@ -4,12 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackendSneakerShop", "BackendSneakerShop.csproj", "{40B8C304-68D2-4A88-9396-F41B0840B121}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7B3C4066-2776-4E33-BEB4-ACDA66B18E73} = {7B3C4066-2776-4E33-BEB4-ACDA66B18E73}
+		{AA167A14-1987-46B8-A2A3-5BBDC0BA2D75} = {AA167A14-1987-46B8-A2A3-5BBDC0BA2D75}
+		{FBA5193D-8D35-474C-A0ED-4D334EFCC079} = {FBA5193D-8D35-474C-A0ED-4D334EFCC079}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthService", "AuthService\AuthService.csproj", "{AA167A14-1987-46B8-A2A3-5BBDC0BA2D75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "ProductService\ProductService.csproj", "{FBA5193D-8D35-474C-A0ED-4D334EFCC079}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService", "ProductService\ProductService.csproj", "{FBA5193D-8D35-474C-A0ED-4D334EFCC079}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartService", "CartService\CartService.csproj", "{7B3C4066-2776-4E33-BEB4-ACDA66B18E73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartService", "CartService\CartService.csproj", "{7B3C4066-2776-4E33-BEB4-ACDA66B18E73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -20,16 +20,6 @@ public class AuthDbContext : DbContext
 
     public DbSet<User> Users { get; set; } = null!;
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        string connectionString = "Host=localhost;Port=5432;Database=shop_db;Username=postgres;Password=1234";
-
-        if (!optionsBuilder.IsConfigured)
-        {
-            optionsBuilder.UseNpgsql(connectionString);
-        }
-    }
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<User>(entity =>

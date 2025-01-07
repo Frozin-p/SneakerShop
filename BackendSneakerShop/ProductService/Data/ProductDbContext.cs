@@ -12,15 +12,6 @@ namespace ProductService.Data
 
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            string connectionString = "Host=localhost;Port=5432;Database=shop_db;Username=postgres;Password=1234";
-
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseNpgsql(connectionString);
-            }
-        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
