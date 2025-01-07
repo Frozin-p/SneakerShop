@@ -15,7 +15,7 @@ namespace AuthService
             // Add services to the container.
 
             // Регистрация DbContext
-            builder.Services.AddDbContext<AppDbContext>(options =>
+            builder.Services.AddDbContext<AuthDbContext>(options =>
                 options.UseNpgsql("Host=localhost;Port=5432;Database=shop_db;Username=postgres;Password=1234"));
 
             // Регистрация зависимостей

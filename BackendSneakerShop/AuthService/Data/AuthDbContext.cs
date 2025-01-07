@@ -3,16 +3,16 @@ using AuthService.Contracts;
 
 namespace AuthService.Data;
 
-public class AppDbContext : DbContext
+public class AuthDbContext : DbContext
 {
     private readonly IConfiguration _configuration;
 
-    public AppDbContext(IConfiguration configuration)
+    public AuthDbContext(IConfiguration configuration)
     {
         _configuration = configuration;
     }
 
-    public AppDbContext(DbContextOptions<AppDbContext> options, IConfiguration configuration)
+    public AuthDbContext(DbContextOptions<AuthDbContext> options, IConfiguration configuration)
         : base(options)
     {
         _configuration = configuration;

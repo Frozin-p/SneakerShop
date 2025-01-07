@@ -7,9 +7,9 @@ namespace AuthService.Repositories
 {
     public class UserRepository : IUserRepository
     {
-        private readonly AppDbContext _context;
+        private readonly AuthDbContext _context;
 
-        public UserRepository(AppDbContext context)
+        public UserRepository(AuthDbContext context)
         {
             _context = context;
         }
