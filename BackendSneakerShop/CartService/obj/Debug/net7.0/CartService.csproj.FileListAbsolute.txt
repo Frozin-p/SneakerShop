@@ -37,3 +37,5 @@ C:\Users\Frozin\Desktop\Study\Univer\Курсач 5 сем\GIT\SneakerShop\Backe
 C:\Users\Frozin\Desktop\Study\Univer\Курсач 5 сем\GIT\SneakerShop\BackendSneakerShop\CartService\obj\Debug\net7.0\CartService.pdb
 C:\Users\Frozin\Desktop\Study\Univer\Курсач 5 сем\GIT\SneakerShop\BackendSneakerShop\CartService\obj\Debug\net7.0\CartService.genruntimeconfig.cache
 C:\Users\Frozin\Desktop\Study\Univer\Курсач 5 сем\GIT\SneakerShop\BackendSneakerShop\CartService\obj\Debug\net7.0\ref\CartService.dll
+C:\Users\Frozin\Desktop\Study\Univer\Курсач 5 сем\GIT\SneakerShop\BackendSneakerShop\CartService\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Frozin\Desktop\Study\Univer\Курсач 5 сем\GIT\SneakerShop\BackendSneakerShop\CartService\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll

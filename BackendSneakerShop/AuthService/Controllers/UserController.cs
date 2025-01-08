@@ -1,5 +1,6 @@
 ﻿using AuthService.Abstractions;
 using AuthService.Contracts;
+using AuthService.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AuthService.Controllers;
@@ -9,10 +10,12 @@ namespace AuthService.Controllers;
 public class UserController : ControllerBase
 {
     private readonly IUserService _userService;
+    private readonly RabbitMqPublisher _rabbitMqPublisher;
 
-    public UserController(IUserService userService)
+    public UserController(IUserService userService, RabbitMqPublisher rabbitMqPublisher)
     {
         _userService = userService;
+        _rabbitMqPublisher = rabbitMqPublisher;
     }
 
     [HttpPost("register")]
@@ -29,6 +32,12 @@ public class UserController : ControllerBase
         try
         {
             await _userService.RegisterUser(user);
+
+            _rabbitMqPublisher.Publish(new
+            {
+                UserId = user.Id,
+            });
+
             return Ok(user);
         }
         catch (InvalidOperationException ex)

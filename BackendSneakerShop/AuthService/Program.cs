@@ -19,8 +19,9 @@ namespace AuthService
                 options.UseNpgsql("Host=localhost;Port=5432;Database=shop_db;Username=postgres;Password=1234"));
 
             // Регистрация зависимостей
-            builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<RabbitMqPublisher>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

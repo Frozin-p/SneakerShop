@@ -9,10 +9,12 @@ namespace CartService.Repositories
     public class CartRepository : ICartRepository
     {
         private readonly CartDbContext _context;
+        private readonly ILogger<CartRepository> _logger;
 
-        public CartRepository(CartDbContext context)
+        public CartRepository(CartDbContext context, ILogger<CartRepository> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         public async Task<CartDto?> GetCartByUserIdAsync(Guid userId)
@@ -84,6 +86,21 @@ namespace CartService.Repositories
 
             _context.CartItems.Remove(cartItem);
             await _context.SaveChangesAsync();
+        }
+
+        public async Task CreateCartAsync(CartDto cart)
+        {
+            _logger.LogInformation("Creating cart for user: " + cart.UserId);
+
+            var newCart = new Cart
+            {
+                UserId = cart.UserId
+            };
+
+            _context.Carts.Add(newCart);
+            await _context.SaveChangesAsync();
+
+            _logger.LogInformation("Cart successfully created for user: " + cart.UserId);
         }
     }
 }

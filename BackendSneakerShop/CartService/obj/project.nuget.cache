@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QCxsU6D26U6W7OzBGE/FpPWqlRJH3Mc/itLY9AvYdLFZC5Gd+W3qiW9xqJT5GADN4sjiVqgJV0m1YQL9lmMq9A==",
+  "dgSpecHash": "/jN5VWXmYiccHee/8o9WEBOv1uj358b9HwI+IOwxEOuHyANiDg3QcJKsrswW9tNPA33KIacpt1auso33aro2aA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Frozin\\Desktop\\Study\\Univer\\Курсач 5 сем\\GIT\\SneakerShop\\BackendSneakerShop\\CartService\\CartService.csproj",
   "expectedPackageFiles": [
@@ -28,7 +28,9 @@
     "C:\\Users\\Frozin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Frozin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "C:\\Users\\Frozin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
-    "C:\\Users\\Frozin\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Frozin\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.0\\system.configuration.configurationmanager.9.0.0.nupkg.sha512",
+    "C:\\Users\\Frozin\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Frozin\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.0\\system.security.cryptography.protecteddata.9.0.0.nupkg.sha512",
     "C:\\Users\\Frozin\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
   ],
   "logs": []

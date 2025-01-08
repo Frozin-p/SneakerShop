@@ -26,5 +26,10 @@ namespace CartService.Services
         {
             await _cartRepository.RemoveItemFromCartAsync(userId, productId);
         }
+
+        public async Task CreateCartAsync(CartDto cart)
+        {
+            await _cartRepository.CreateCartAsync(cart);
+        }
     }
 }
